@@ -1,0 +1,46 @@
+source_file,check_name,raw_passed,cleaned_passed,raw_detail,cleaned_detail,raw_quality_score,cleaned_quality_score
+C:\Users\Ruhani\Desktop\cdac extra\eeg\10_Gratification000004.vhdr,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Desktop\cdac extra\eeg\10_Gratification000004.vhdr,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Desktop\cdac extra\eeg\10_Gratification000004.vhdr,noise_check,False,True,{'high_to_low_band_ratio': 0.8496},{'high_to_low_band_ratio': 0.0546},0.6,1.0
+C:\Users\Ruhani\Desktop\cdac extra\eeg\10_Gratification000004.vhdr,baseline_drift_check,False,True,{'drift_power': 1.404402815924549e-09},{'drift_power': 1.542220529113053e-11},0.6,1.0
+C:\Users\Ruhani\Desktop\cdac extra\eeg\10_Gratification000004.vhdr,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 1.5134},{'mean_abs_kurtosis': 2.0634},0.6,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,noise_check,True,True,{'high_to_low_band_ratio': 0.0343},{'high_to_low_band_ratio': 0.0076},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,baseline_drift_check,False,True,{'drift_power': 1.3778041007841426e-09},{'drift_power': 5.233657485608037e-11},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 2.4736},{'mean_abs_kurtosis': 0.5004},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,noise_check,True,True,{'high_to_low_band_ratio': 0.0343},{'high_to_low_band_ratio': 0.0076},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,baseline_drift_check,False,True,{'drift_power': 1.3778041007841426e-09},{'drift_power': 5.233657485608037e-11},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 2.4736},{'mean_abs_kurtosis': 0.5004},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01_CLEANED.vhdr,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},1.0,1.0
+C:\Users\Ruhani\Downloads\S001R01_CLEANED.vhdr,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},1.0,1.0
+C:\Users\Ruhani\Downloads\S001R01_CLEANED.vhdr,noise_check,True,True,{'high_to_low_band_ratio': 0.0076},{'high_to_low_band_ratio': 0.0059},1.0,1.0
+C:\Users\Ruhani\Downloads\S001R01_CLEANED.vhdr,baseline_drift_check,True,True,{'drift_power': 5.233657485608037e-11},{'drift_power': 7.776721315899308e-12},1.0,1.0
+C:\Users\Ruhani\Downloads\S001R01_CLEANED.vhdr,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 0.5004},{'mean_abs_kurtosis': 0.4235},1.0,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,noise_check,True,True,{'high_to_low_band_ratio': 0.0343},{'high_to_low_band_ratio': 0.0076},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,baseline_drift_check,False,True,{'drift_power': 1.3778041007841426e-09},{'drift_power': 5.233657485608037e-11},0.8,1.0
+C:\Users\Ruhani\Downloads\S001R01.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 2.4736},{'mean_abs_kurtosis': 0.5004},0.8,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,noise_check,False,True,{'high_to_low_band_ratio': 1.1785},{'high_to_low_band_ratio': 0.0268},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,baseline_drift_check,False,True,{'drift_power': 6.900714605178098e-09},{'drift_power': 2.836157521014978e-10},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 0.974},{'mean_abs_kurtosis': 2.5572},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,noise_check,False,True,{'high_to_low_band_ratio': 1.1785},{'high_to_low_band_ratio': 0.0268},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,baseline_drift_check,False,True,{'drift_power': 6.900714605178098e-09},{'drift_power': 2.836157521014978e-10},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 0.974},{'mean_abs_kurtosis': 2.5572},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,noise_check,False,True,{'high_to_low_band_ratio': 1.1785},{'high_to_low_band_ratio': 0.0268},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,baseline_drift_check,False,True,{'drift_power': 6.900714605178098e-09},{'drift_power': 2.836157521014978e-10},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R10.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 0.974},{'mean_abs_kurtosis': 2.5572},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R14.edf,flatline_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R14.edf,clipping_check,True,True,{'flagged_channels': []},{'flagged_channels': []},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R14.edf,noise_check,False,True,{'high_to_low_band_ratio': 0.6651},{'high_to_low_band_ratio': 0.0326},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R14.edf,baseline_drift_check,False,True,{'drift_power': 8.002232660738527e-09},{'drift_power': 2.9452267260776354e-10},0.6,1.0
+C:\Users\Ruhani\Downloads\S017R14.edf,artifact_kurtosis_check,True,True,{'mean_abs_kurtosis': 1.0559},{'mean_abs_kurtosis': 1.5064},0.6,1.0

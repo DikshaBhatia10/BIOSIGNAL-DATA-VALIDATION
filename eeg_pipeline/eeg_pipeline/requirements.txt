@@ -1,0 +1,10 @@
+mne>=1.6
+pybv
+numpy
+scipy
+fastapi
+uvicorn
+httpx
+pydantic
+minio
+google-genai

@@ -1,0 +1,19 @@
+**EEG Signal-Quality Validation Pipeline Report**
+
+**Overview**
+This report summarizes the quality validation pipeline run for the recording `S001R01_CLEANED.vhdr` (64 channels, 160.0 Hz sampling rate, 60.99 seconds duration). Processing included 1.0–40.0 Hz bandpass filtering and ICA artifact removal.
+
+**Quality Checks (Before and After Cleaning)**
+* **Before Cleaning (Raw):** All 5 checks passed (0 failed). The evaluated checks were flatline, clipping, noise, baseline drift, and artifact kurtosis.
+* **After Cleaning:** All 5 checks passed (0 failed).
+
+**ICA Component Removal**
+* Exactly **1** ICA component (component index 5 out of 15 fit components) was removed.
+
+**Overall Quality Score Change**
+* **Before Cleaning:** 1.0
+* **After Cleaning:** 1.0
+* **Score Change:** 0.0 (the quality score remained unchanged).
+
+**Data Quality Assessment**
+Based on these specific numbers, the cleaning did not meaningfully improve the overall quality score because the data already achieved a perfect score of 1.0 with all five checks passing prior to processing.

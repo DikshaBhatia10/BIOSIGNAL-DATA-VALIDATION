@@ -1,0 +1,44 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Exported using pybv 0.8.1
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=S017R10_CLEANED.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+;             <Size in data points>, <Channel number (0 = marker is related to all channels)>
+;             <Date (YYYYMMDDhhmmssuuuuuu)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20090812161500000000
+Mk2=Comment,T0,1,656,0
+Mk3=Comment,T1,657,656,0
+Mk4=Comment,T0,1313,656,0
+Mk5=Comment,T2,1969,656,0
+Mk6=Comment,T0,2625,656,0
+Mk7=Comment,T1,3281,656,0
+Mk8=Comment,T0,3937,656,0
+Mk9=Comment,T2,4593,656,0
+Mk10=Comment,T0,5249,656,0
+Mk11=Comment,T1,5905,656,0
+Mk12=Comment,T0,6561,656,0
+Mk13=Comment,T2,7217,656,0
+Mk14=Comment,T0,7873,656,0
+Mk15=Comment,T1,8529,656,0
+Mk16=Comment,T0,9185,656,0
+Mk17=Comment,T2,9841,656,0
+Mk18=Comment,T0,10497,656,0
+Mk19=Comment,T2,11153,656,0
+Mk20=Comment,T0,11809,656,0
+Mk21=Comment,T1,12465,656,0
+Mk22=Comment,T0,13121,656,0
+Mk23=Comment,T1,13777,656,0
+Mk24=Comment,T0,14433,656,0
+Mk25=Comment,T2,15089,656,0
+Mk26=Comment,T0,15745,656,0
+Mk27=Comment,T2,16401,656,0
+Mk28=Comment,T0,17057,656,0
+Mk29=Comment,T1,17713,656,0
+Mk30=Comment,T0,18369,656,0
+Mk31=Comment,T1,19025,656,0

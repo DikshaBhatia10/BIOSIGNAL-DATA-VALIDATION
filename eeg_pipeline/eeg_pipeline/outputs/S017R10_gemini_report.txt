@@ -1,0 +1,17 @@
+**EEG Quality Control Summary: S017R10.edf**
+
+**Before Cleaning (Raw QC)**
+The raw EEG recording passed 3 out of 5 quality checks, earning an overall quality score of 0.6. 
+* **Passed Checks:** `flatline_check`, `clipping_check`, and `artifact_kurtosis_check`.
+* **Failed Checks:** `noise_check` and `baseline_drift_check`.
+
+**Cleaning Process**
+The pipeline applied a 1.0 to 40.0 Hz bandpass filter and ran Independent Component Analysis (ICA). Out of 15 ICA components fit, 1 component (component 12) was removed.
+
+**After Cleaning (Cleaned QC)**
+After filtering and ICA removal, the output file (`S017R10_CLEANED.vhdr`) passed all 5 quality checks, bringing the overall quality score to 1.0.
+* **Passed Checks:** `flatline_check`, `clipping_check`, `noise_check`, `baseline_drift_check`, and `artifact_kurtosis_check`.
+* **Failed Checks:** None.
+
+**Quality Assessment**
+Based on the quality score increasing from 0.6 to 1.0 and the resolution of all previously failed checks, the cleaning pipeline meaningfully improved the data quality.

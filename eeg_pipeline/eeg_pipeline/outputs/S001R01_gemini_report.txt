@@ -1,0 +1,21 @@
+Here is the summary report for the EEG signal-quality validation run on file `S001R01.edf`.
+
+### Pre-Cleaning Quality Checks (Raw Data)
+* **Passed Checks (4/5):** Flatline check, clipping check, noise check, and artifact kurtosis check.
+* **Failed Checks (1/5):** Baseline drift check.
+* **Raw Quality Score:** 0.8
+
+### Cleaning Summary
+* **Filtering:** Bandpass filter applied between 1.0 Hz and 40.0 Hz.
+* **ICA Removal:** 2 ICA components (components 0 and 7) out of 15 fit components were removed.
+
+### Post-Cleaning Quality Checks (Cleaned Data)
+* **Passed Checks (5/5):** Flatline check, clipping check, noise check, baseline drift check, and artifact kurtosis check.
+* **Failed Checks (0/5):** None.
+* **Cleaned Quality Score:** 1.0
+
+### Quality Score Change
+* The overall quality score increased from **0.8 to 1.0** (an improvement of +0.2).
+
+### Evaluation
+Based on the quality score increasing from 0.8 to 1.0 and the checks-passed count rising from 4/5 to 5/5 by successfully resolving the baseline drift failure, the cleaning process meaningfully improved the data quality.

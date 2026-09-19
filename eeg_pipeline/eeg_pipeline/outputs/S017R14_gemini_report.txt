@@ -1,0 +1,20 @@
+Here is the summary report for the EEG quality pipeline run on file `S017R14.edf`.
+
+### **Initial QC (Raw Data)**
+* **Passed Checks (3/5):** Flatline check, clipping check, and artifact kurtosis check.
+* **Failed Checks (2/5):** Noise check and baseline drift check.
+* **Quality Score:** 0.6
+
+### **Cleaning Action**
+* **ICA Components Removed:** 1 
+
+### **Final QC (Cleaned Data)**
+* **Passed Checks (5/5):** Flatline check, clipping check, noise check, baseline drift check, and artifact kurtosis check.
+* **Failed Checks (0/5):** None.
+* **Quality Score:** 1.0
+
+### **Quality Score Change**
+The overall quality score improved by 0.4, increasing from 0.6 for the raw recording to 1.0 for the cleaned recording.
+
+### **Conclusion**
+Based on the quality score increasing from 0.6 to 1.0 and all 5 checks passing post-cleaning, the pipeline process meaningfully improved the data quality by resolving the initial noise and baseline drift failures.

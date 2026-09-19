@@ -1,0 +1,92 @@
+{
+  "input_file": "C:\\Users\\Ruhani\\Downloads\\S017R14.edf",
+  "qc_raw": {
+    "pass_label": "raw",
+    "file": "C:\\Users\\Ruhani\\Downloads\\S017R14.edf",
+    "n_channels": 64,
+    "sampling_rate": 160.0,
+    "duration_sec": 122.99,
+    "bad_channel_fraction": 0.0,
+    "checks": {
+      "flatline_check": {
+        "passed": true,
+        "flagged_channels": []
+      },
+      "clipping_check": {
+        "passed": true,
+        "flagged_channels": []
+      },
+      "noise_check": {
+        "passed": false,
+        "high_to_low_band_ratio": 0.6651
+      },
+      "baseline_drift_check": {
+        "passed": false,
+        "drift_power": 8.002232660738527e-09
+      },
+      "artifact_kurtosis_check": {
+        "passed": true,
+        "mean_abs_kurtosis": 1.0559
+      }
+    },
+    "checks_passed": 3,
+    "checks_total": 5,
+    "quality_score": 0.6
+  },
+  "analysis": {
+    "input_file": "C:\\Users\\Ruhani\\Downloads\\S017R14.edf",
+    "cleaned_file": "C:\\Users\\Ruhani\\Desktop\\eeg_pipeline\\eeg_pipeline\\outputs\\S017R14_CLEANED.vhdr",
+    "filter_band_hz": [
+      1.0,
+      40.0
+    ],
+    "ica_components_fit": 15,
+    "ica_components_removed": [
+      1
+    ],
+    "n_components_removed": 1,
+    "epochs_total": 61
+  },
+  "minio_folder": "S017R14",
+  "minio_objects": [
+    "S017R14/S017R14_CLEANED.eeg",
+    "S017R14/S017R14_CLEANED.vhdr",
+    "S017R14/S017R14_CLEANED.vmrk",
+    "S017R14/S017R14_gemini_report.txt"
+  ],
+  "qc_cleaned": {
+    "pass_label": "cleaned",
+    "file": "C:\\Users\\Ruhani\\Desktop\\eeg_pipeline\\eeg_pipeline\\outputs\\S017R14_CLEANED.vhdr",
+    "n_channels": 64,
+    "sampling_rate": 160.0,
+    "duration_sec": 122.99,
+    "bad_channel_fraction": 0.0,
+    "checks": {
+      "flatline_check": {
+        "passed": true,
+        "flagged_channels": []
+      },
+      "clipping_check": {
+        "passed": true,
+        "flagged_channels": []
+      },
+      "noise_check": {
+        "passed": true,
+        "high_to_low_band_ratio": 0.0326
+      },
+      "baseline_drift_check": {
+        "passed": true,
+        "drift_power": 2.9452267260776354e-10
+      },
+      "artifact_kurtosis_check": {
+        "passed": true,
+        "mean_abs_kurtosis": 1.5064
+      }
+    },
+    "checks_passed": 5,
+    "checks_total": 5,
+    "quality_score": 1.0
+  },
+  "gemini_report_file": "C:\\Users\\Ruhani\\Desktop\\eeg_pipeline\\eeg_pipeline\\outputs\\S017R14_gemini_report.txt",
+  "akansha_export": "C:\\Users\\Ruhani\\Desktop\\eeg_pipeline\\eeg_pipeline\\outputs\\akansha_comparison_export.csv"
+}
